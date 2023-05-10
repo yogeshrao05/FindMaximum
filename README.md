@@ -54,12 +54,11 @@ def max_marks(list1):
 
 
 ## Output:
-```
  i) # To find the maximum of marks using the list method sort.
  
  ![image](https://github.com/yogeshrao05/FindMaximum/assets/122008288/12885119-cc26-4d56-b744-c05fafa74494)
-
-
+ 
+ 
  ii)	# To find the maximum marks using the list method max().
  
  
