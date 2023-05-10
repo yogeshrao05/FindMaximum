@@ -11,29 +11,71 @@ To write a program to find the maximum of a list of numbers.
 ## Program:
 
 i)	# To find the maximum of marks using the list method sort.
-```Python
+```
+program to mark the maximum of marks using the method sort.
+Developed by: yogesh rao S D
+Registernumber: 212222110055
+```
+def max_marks(marks):
+    a=sorted(marks)
+    b=a[-1]
+    return b
 
 
 
 ```
 
 ii)	# To find the maximum marks using the list method max().
-```Python
+```
+program to mark maximum marks using the list method max().
+Developed by: yogesh rao S D
+Registernumber: 212222110055
+```
+def max_marks(marks):
+    a=max(marks)
+    return a
 
 
 
 ```
 
 iii) # To find the maximum marks without using builtin functions.
-```Python
+```
+program to the maximum marks without using builtin functions.
+Developed by: yogesh rao S D
+Registernumber: 212222110055
+```
+def max_marks(list1):
+    max=list1[0]
+    for i in list1:
+        if i>max:
+            max=i
+    return max 
+    
+    
+```
+
+
+## Output:
+```
+ i) # To find the maximum of marks using the list method sort.
+ 
+ ![image](https://github.com/yogeshrao05/FindMaximum/assets/122008288/12885119-cc26-4d56-b744-c05fafa74494)
+
+
+ ii)	# To find the maximum marks using the list method max().
+ 
+ 
+ ![image](https://github.com/yogeshrao05/FindMaximum/assets/122008288/d5851a5d-c593-42f0-8875-3562dacc7d18)
+ 
+ 
+ iii) # To find the maximum marks without using builtin functions.
+ 
+ 
+ ![image](https://github.com/yogeshrao05/FindMaximum/assets/122008288/e26dfd00-adbf-4ecd-9cbc-8b2306d65b2e)
 
 
 
 ```
-## Sample Input and Output
-![output](./img/max_marks1.jpg) 
-
-## Output:
-
 ## Result:
 Thus the program to find the maximum of given numbers from the list is written and verified using python programming.
